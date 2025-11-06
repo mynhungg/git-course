@@ -1,0 +1,23 @@
+1.
+- git init: Initialize empty Git repo
+- git add <file_name>: add one file to git repo
+- git add . : add all file to git repo
+- git commit -m "message" : Commit staged changes with a message, save point in project, create a version 
+
+2. 
+a. Local 
+b. Working directory 
+c. Working directory 
+d. 
+    Working directory: file1, file2, file3
+    Staging: file1
+
+e. 
+    Working directory: file1, file2, file3
+    Staging: file1
+    Repository: file1
+
+f.
+    Working directory: file1, file2, file3
+    Staging: file1
+    Repository: file1
