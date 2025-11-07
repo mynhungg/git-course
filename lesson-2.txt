@@ -14,10 +14,10 @@ d.
 
 e. 
     Working directory: file1, file2, file3
-    Staging: file1
+    Staging
     Repository: file1
 
 f.
     Working directory: file1, file2, file3
-    Staging: file1
-    Repository: file1
+    Staging
+    Repository: fil
