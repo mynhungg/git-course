@@ -20,4 +20,4 @@ e.
 f.
     Working directory: file1, file2, file3
     Staging
-    Repository: fil
+    Repository: file1
