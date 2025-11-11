@@ -1,5 +1,5 @@
 1. 
-    git commit --amend: change commit message
+    git commit --amend: change the last commit message
     git commit --amend -m "<message>": change the most recent commit message directly
     git restore --staged  <file>: move file from staging to working directory
     git reset HEAD~1: move 1 commit from Repository to working directory
