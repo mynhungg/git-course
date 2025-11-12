@@ -2,7 +2,7 @@
     git commit --amend: change the last commit message
     git commit --amend -m "<message>": change the most recent commit message directly
     git restore --staged  <file>: move file from staging to working directory
-    git reset HEAD~1: move 1 commit from Repository to working directory
+    git reset HEAD~1: reset current branch to the latest commit (HEAD) and discard all uncommitted changes in both the working directory and the staging area.
 2.
     a. Create file
         - Local: file1, file2, file3
@@ -65,20 +65,19 @@
         - Repository
     b. create file1.txt, file2.txt, oops/file3.txt
         - Local: 
-        - Working directory: file1.txt, file2.txt, file3.txt
+        - Working directory: file1.txt, file2.txt, oops/file3.txt
         - Repository
     c. add .gitignore: file1.txt, oops/
-        - Local: file1.txt, oops/file3.txt
-        - Working directory: file2.txt
-        - Staging
+        - Local: 
+        - Working directory: file1.txt, file2.txt, oops/file3.txt
         - Repository
     d. git add.
         - Local: file1.txt, oops/file3.txt
-        - Working directory: file2.txt
-        - Staging: file2.txt
+        - Working directory: file1.txt, oops/file3.txt, file2.txt, .gitignore
+        - Staging: file2.txt, .gitignore
         - Repository
     e. git commit -m "init project"
         - Local: file1.txt, oops/file3.txt
-        - Working directory: file2.txt
+        - Working directory: file1.txt, oops/file3.txt, file2.txt
         - Staging: 
-        - Repository: file2.txt
+        - Repository: file2.txt, .gitignore
