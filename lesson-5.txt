@@ -1,0 +1,43 @@
+1. Basic DOM structure of a website
+<html>
+  <head>
+    <title></title>
+    <link></link>
+    <meta></meta>
+    <style></style>
+  </head>
+
+  <body>
+    <div>
+      <p></p>
+      <a></a>
+    </div>
+
+    <div>
+      <dialog></dialog>
+      <h1></h1>
+      <table></table>
+      <iframe></iframe>
+      <dialog></dialog>
+    </div>
+
+  </body>
+</html>
+
+
+
+2. HTML structure of a table
+<table>
+   <thead>          → Table heading section
+         <tr>      → Table row
+               <th> → Table header cell (bold text)
+               <th> → Table header cell
+ 
+   <tbody>          → Table body section
+   <tr>      → Table row
+   <td> → Table data cell
+   <td> → Table data cell
+   <tr>
+   <td>
+   <td>
+</table>
